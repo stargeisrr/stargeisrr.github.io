@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <title>анустон тест</title>
 
 <html>
@@ -9,21 +9,19 @@
       margin:0;
     }
     .anusel {
+      z-index: 1;
       position: fixed;
-      margin: 0;
-      top: 1;
-      left: 0;
       height: 100vh;
       width: 100vw;
-      z-index: auto;
     }
-    video#video {
+    video#anusel {
       height: 100%;
       width: 100%;
       object-fit: cover;
     }
-    video#video::-webkit-media-controls-enclosure {
+    video#anusel::-webkit-media-controls-enclosure {
       display:none !important;
+    }
   </style>
 <body>
 <!-- ТУТ BODY -->
