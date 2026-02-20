@@ -1,1 +1,0 @@
-# stargeisrr.github.io
